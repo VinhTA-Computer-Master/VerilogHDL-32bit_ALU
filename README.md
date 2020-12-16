@@ -4,10 +4,12 @@ Realization of 32-bit ALU performing 15 different arithmetic/logical operations.
 Author: Vinh TA
 
 Description: This ALU takes 32-bit inputs A and B, 4-bit operation selector and 1-bit Cin. Outputs 32-bit result and a Cout.
+
 List of operation selected by S signal:
-0000: no op
-0001: A+B+Cin
-0010: A-B+Cin
+
+0000: no op;
+0001: A+B+Cin;
+0010: A-B+Cin;
 0011: A * B 
 0100: A / B
 0101: Shift left by 1 of input A
